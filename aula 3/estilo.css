@@ -1,0 +1,16 @@
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+div {
+  display: flex;
+}
+
+form.cadastro {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: auto auto;
+}

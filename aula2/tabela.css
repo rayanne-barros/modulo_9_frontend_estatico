@@ -1,11 +1,15 @@
 table {
   border-collapse: collapse;
   width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-table td, table th {
+table td,
+table th {
   border: 1px solid #ddd;
   padding: 8px;
+  //border-radius: 8px;
 }
 
 table tr:nth-child(even) {
@@ -19,8 +23,14 @@ table tr:hover {
 table th {
   padding-top: 12px;
   padding-bottom: 12px;
-  
-  text-align: rigth;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
 
-
+tfoot td {
+  text-align: right;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
 }
